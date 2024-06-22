@@ -1,0 +1,820 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Alziny</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<style>
+			.centered-span {
+				text-align: center;
+				display: block; 
+				font-weight: bold;/* To center inline elements */
+				/* If you want to center inline elements horizontally only, you can use the following instead:
+				margin: 0 auto;
+				*/
+			}
+			    /* Default link styles */
+				a {
+        color: black; /* Default link color */
+        text-decoration: none; /* Remove underline */
+    }
+
+    /* Change link color on hover */
+    a:hover {
+        color: red; /* New link color on hover */
+    }
+		</style>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				        <div class="container">
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">EL ziny motors <span></span></a>
+
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home"> search </a></li>
+				                    <li class="scroll"><a href="#service">service</a></li>
+				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
+				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
+				                    <li class="scroll"><a href="#brand">brands</a></li>
+				                    <li class="scroll"><a href="#contact">about us </a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>El Ziny motor sport</h2>
+					<p>
+						Showroom Supercars & Luxury Cars in Egypt
+					</p>
+					
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<form method="post" action="Search.php">
+							<div class="model-search-content">
+								<div class="row">
+									<div class="col-md-offset-1 col-md-2 col-sm-12">
+										<div class="single-model-search">
+											<h2>select year</h2>
+											<div class="model-select-icon">
+												<select class="form-control" name="year">
+													<option value="none" disabled selected>year</option>
+													<option value="2024">2024</option>
+													<option value="2023">2023</option>
+													<option value="2022">2022</option>
+												</select>
+											</div>
+										</div>
+										<div class="single-model-search">
+											<h2>body style</h2>
+											<div class="model-select-icon">
+												<select class="form-control" name="body_style">
+													<option value="none" disabled selected>style</option>
+													<option value="sedan">sedan</option>
+													<option value="van">van</option>
+													<option value="roadster">roadster</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-offset-1 col-md-2 col-sm-12">
+										<div class="single-model-search">
+											<h2>select make</h2>
+											<div class="model-select-icon">
+												<select class="form-control" name="make">
+													<option value="none" disabled selected>make</option>
+													<option value="lamborghini">Lamborghini</option>
+													<option value="porsche">Porsche</option>
+													<option value="mercedes-benz">Mercedes</option>
+													<option value="Ferrari">Ferrari</option>
+													<option value="Aston Martin">Aston Martin</option>
+													<option value="mclaren">McLaren</option>
+												</select>
+											</div>
+										</div>
+										<div class="single-model-search">
+											<h2>car condition</h2>
+											<div class="model-select-icon">
+												<select class="form-control" name="car_condition">
+													<option value="none" disabled selected>condition</option>
+													<option value="new">new</option>
+													<option value="tuned">Tuned</option>
+													<option value="used">Used</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-offset-1 col-md-2 col-sm-12">
+										<div class="single-model-search">
+											<h2>Transmission Type</h2>
+											<div class="model-select-icon">
+												<select class="form-control" name="transmission_type">
+													<option value="none" disabled selected>Trans Type</option>
+													<option value="automatic">Automatic</option>
+													<option value="manual">Manual</option>
+												</select>
+											</div>
+										</div>
+										<div class="single-model-search">
+											<h2>select price</h2>
+											<div class="model-select-icon">
+												<select class="form-control" name="price">
+													<option value="none" disabled selected>price</option>
+													<option value="20000000">20,000,000 LE</option>
+													<option value="2500000">Above 2.5M LE</option>
+													<option value="10000000">Under 10M LE</option>
+													<option value="0">Priceless</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-2 col-sm-12">
+										<div class="single-model-search text-center">
+											<button type="submit" class="welcome-btn model-search-btn">
+												Search
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--service start -->
+	<section id="service" class="service">
+		<div class="container">
+			<div class="service-content">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="single-service-item">
+							<div class="single-service-icon">
+								<i class="flaticon-car"></i>
+							</div>
+							<h2><a href="#">the largest dealership<span> of</span> car</a></h2>
+							<p>
+								El Ziny Auto is a pioneer in the exotic cars business in Egypt. El Ziny was first established in 1982 in Düsseldorf,
+								Germany.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-service-item">
+							<div class="single-service-icon">
+								<i class="flaticon-car-repair"></i>
+							</div>
+							<h2><a href="#">El ziny motors  warrenty and servise</a></h2>
+							<p>
+							warrenty form elZiny motors for servise and car protection , if the car want to any tunner its out of warrenty.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-service-item">
+							<div class="single-service-icon">
+								<i class="flaticon-car-1"></i>
+							</div>
+							<h2><a href="#">insurence support</a></h2>
+							<p>
+								Insurance Information: Provide easy-to-understand explanations about the importance of insurance for exotic cars.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.container-->
+	
+	</section><!--/.service-->
+	<!--service end-->
+
+		<!--new-cars start -->
+		<section id="new-cars" class="new-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> latest cars</p>
+					<h2>newest cars</h2>
+				</div><!--/.section-header-->
+				<div class="new-cars-content">
+					<div class="owl-carousel owl-theme" id="new-cars-carousel">
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="assets/images/new-cars-model/ncm1.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">Rolls Royce Cullinan Novitec Black Badge <span> Cullinan Novitec Black Badge</span></a></h2>
+											<p>
+												OF 1 Worldwide (SPEC) 🌎
+												• 1 OF 1 In Egypt 🇪🇬
+												• Rolls Royce Cullinan Novitec Black Badge
+												• Brand New 2024
+											<p class="new-cars-para2">
+												6750 CC - V12 - Twin Turbo
+												• 698 HP - 1060 N.M
+												• 0:100 KM: 4,9 Sec.
+											</p>
+											
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="assets/images/new-cars-model/ncm2.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">Porsche 911 carrera GTS</a></h2>
+											<p>
+												• 3000 CC - 6 Cylinder - Twin Turbo
+												• 473 HP - 570 N.M
+												• 0:100 KM: 3,4 Sec.
+											</p>
+											<p class="new-cars-para2">
+												• 8 Speed Automatic PDK
+											</p>
+											
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->	
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="assets/images/new-cars-model/ncm3.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">Ferrari F8 Spider Keyvany</a></h2>
+											<p>
+												• 1 OF 20 In the World 🌎
+												• 1 OF 1 In Egypt 🇪🇬
+												• Ferrari F8 Spider Keyvany
+											</p>
+											<p class="new-cars-para2">
+												3900 CC - V8 - Twin Turbo
+												• 845 HP
+												• 0:100 KM: 2,9 Sec.
+											</p>
+											
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+					</div><!--/#new-cars-carousel-->
+				</div><!--/.new-cars-content-->
+			</div><!--/.container-->
+
+		</section><!--/.new-cars-->
+		<!--new-cars end -->
+
+		<!--featured-cars start -->
+		<section id="featured-cars" class="featured-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> featured cars</p>
+					<h2>featured cars</h2>
+				</div><!--/.section-header-->
+				<div class="featured-cars-content">
+					<div class="row">
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc1.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2023</span>
+											  <span class="featured-mi-span">23 km</span> 
+											  <span class="featured-hp-span"> 473 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">Prochse 911 Carrera GTS </p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">7,000,000 L.E </p>
+									
+									<a href="gts.html">for reservation</a>
+									<p style="font-size: 12px;">(700K Deposit For Reservation)</p>
+								   </div> 
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc2.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2023</span>
+											  <span class="featured-mi-span">Brand New</span> 
+											  <span class="featured-hp-span"> 845 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">Ferrari F8 Spider Keyvany</p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">21,000,000 L.E </p>
+									
+										<a href="f8.html">for reservation</a>
+										<p style="font-size: 12px;">(2.1M Deposit For Reservation)</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc3.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2024</span>
+											  <span class="featured-mi-span">Brand New</span> 
+											  <span class="featured-hp-span"> 496 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">Mercedes-Maybach S580</p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">11,350,000 L.E </p>
+									
+								
+										<a href="mb.html">for reservation </a>
+										<p style="font-size: 12px;">(1.1M Deposit For Reservation)</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc4.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2024</span>
+											  <span class="featured-mi-span">Brand New</span> 
+											  <span class="featured-hp-span"> 577 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">Mercedes AMG Roadster</p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">11,350,000 L.E </p>
+									
+									
+										<a href="sl.html">for reservation</a>
+										<p style="font-size: 12px;">(780K Deposit For Reservation)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc5.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2023</span>
+											  <span class="featured-mi-span">300 km</span> 
+											  <span class="featured-hp-span"> 240 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">Lamborghini Huracan STO</p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">17,250,000 L.E </p>
+						
+
+										<a href="lambosto.html">for reservation</a>
+										<p style="font-size: 12px;">(1.7M Deposit For Reservation)</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc6.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2022</span>
+											  <span class="featured-mi-span">Brand New</span> 
+											  <span class="featured-hp-span"> 715 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">Aston Martin 2DBS Superleggera</p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">17,400,000 LE </p>
+								
+
+										<a href="dbs.html">for reservation</details></a>
+										<p style="font-size: 12px;">(1.7M Deposit For Reservation)</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc7.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2024</span>
+											  <span class="featured-mi-span">Brand New</span> 
+											  <span class="featured-hp-span"> 818 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">Ferrari 296 GTB</p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">19,500,000 L.E </p>
+								
+									<a href="gtb.html">for reservation</a>
+									<p style="font-size: 12px;">(1.9M Deposit For Reservation)</p>
+
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-5 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc8.jpg" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<div class="centered-span">
+											
+										
+											<p>
+											  <span class="featured-mi-span"> model: 2024</span>
+											  <span class="featured-mi-span">Brand New</span> 
+											  <span class="featured-hp-span"> 671 HP</span>
+											  <span class="featured-mi-span"> Automatic</span>
+  
+										   </p>
+										  </div>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<div class="centered-span">
+										<p style="font-size: 18px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">⁠Mclaren Artura 2024</p>
+										<p style="font-size: 17px; color: black; font-family: 'Times New Roman', Times, serif; font-weight:bold;">12,500,000 L.E </p>
+								
+									<a href="mac.html">for reservation</a>
+									<p style="font-size: 12px;">(1.2M Deposit For Reservation)</p>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.featured-cars-->
+		<!--featured-cars end -->
+
+		<!-- clients-say strat -->
+		
+		<!--brand strat -->
+		<section id="brand"  class="brand">
+			<div class="container">
+				<div class="brand-area">
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/brand/5.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						
+						
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/brand/4.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+
+
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/brand/6.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+				</div><!--/.clients-area-->
+
+			</div><!--/.container-->
+
+		</section><!--/brand-->	
+		<!--brand end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog"></section><!--/.blog-->
+		<!--blog end -->
+
+		<!--contact start-->
+		<footer id="contact"  class="contact">
+			<div class="container">
+				<div class="footer-top">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<div class="footer-logo">
+									<a href="index.html">el ziny</a>
+								</div>
+								<p>
+									Fifth Settlement South 90 street , Cairo, Egypt
+								</p>
+								<div class="footer-contact">
+									<p><a href="https://www.facebook.com/elzinyautomotive">Visit Elziny Automotive on Facebook </a> </p>	
+									<br>
+									<p>+(20) 1101430008</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="single-footer-widget">
+								<h2>about devloon</h2>
+								<ul>
+									<li><a href="#">about us</a></li>
+									<li><a href="#">career</a></li>
+									<li><a href="#">terms <span> of service</span></a></li>
+									<li><a href="#">privacy policy</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<div class="single-footer-widget">
+								<h2>top brands</h2>
+								<div class="row">
+									<div class="col-md-7 col-xs-6">
+										<ul>
+											<li>lamborghini</li>
+											<li>ferrari</li>
+											<li>porsche</li>
+										</ul>
+									</div>
+									<div class="col-md-5 col-xs-6">
+										<ul>
+											<li>mercedes benz</li>
+											<li>mclaren</li>
+											<li>Aston Martine</li>
+											<li>aston martin</li>
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-offset-1 col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<h2>more car info </h2>
+								<div class="footer-newsletter">
+									<p>
+									 put your email to contact with us 
+									</p>
+								</div>
+								<div class="hm-foot-email">
+									<div class="foot-email-box">
+										<input type="text" class="form-control" placeholder="Add Email">
+									</div><!--/.foot-email-box-->
+									<div class="foot-email-subscribe">
+										<span><i class="fa fa-arrow-right"></i></span>
+									</div><!--/.foot-email-icon-->
+								</div><!--/.hm-foot-email-->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="row">
+						<div class="col-sm-6">
+							<p>
+								&copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine</a>.
+							</p><!--/p-->
+						</div>
+						<div class="col-sm-6">
+							<div class="footer-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-pinterest-p"></i></a>
+								<a href="#"><i class="fa fa-behance"></i></a>	
+							</div>
+						</div>
+					</div>
+				</div><!--/.footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.contact-->
+		<!--contact end-->
+
+
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
